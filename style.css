@@ -181,25 +181,7 @@ footer form button:hover {
     font-size: 2rem;
     margin-bottom: 20px;
   }
-.video-wrapper {
-  display: flex;
-  justify-content: space-between;
-  gap: 20px;
-}
 
-video, iframe {
-  width: 30%;
-  max-width: 100%;
-  height: auto;
-}
-
-  
-  .video-wrapper video {
-    max-width: 100%;
-    border-radius: 8px;
-    border: 3px solid #38C9C9; /* Turquoise from logo */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
   .course-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
