@@ -175,17 +175,24 @@ footer form button:hover {
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
+
   .section-title {
     color: #333333; /* Charcoal gray from logo */
     font-size: 2rem;
     margin-bottom: 20px;
   }
-  
-  .video-wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+.video-wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+video, iframe {
+  width: 30%;
+  max-width: 100%;
+  height: auto;
+}
+
   
   .video-wrapper video {
     max-width: 100%;
